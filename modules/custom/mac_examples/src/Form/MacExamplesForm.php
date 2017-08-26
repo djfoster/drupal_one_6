@@ -36,7 +36,7 @@ class MacExamplesForm extends FormBase {
     $form['checkbox_1'] = array(
       '#type' => 'checkbox',
       '#title' => 'Marca esta opción',
-      '#default_value' => 'true',
+      '#default_value' => true,
     );
     
     $form['color_1'] = array(
