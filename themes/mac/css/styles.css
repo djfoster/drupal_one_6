@@ -53,6 +53,16 @@ border-right: 1px solid #8199ff;
 border: none;
 }
 
-
+{% if page.footer_bottom %}
+<section class="footer-bottom">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+{{ page.footer_bottom }}
+</div>
+</div>
+</div>
+</section>
+{% endif %}
 
 
