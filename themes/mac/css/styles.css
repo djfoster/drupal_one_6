@@ -52,6 +52,14 @@ border-right: 1px solid #8199ff;
 .block-menu ul.menu li:last-child {
 border: none;
 }
-
+<section class="footer-bottom">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+{{ 'MARIA DE LOS ANGELES'|upper }}
+</div>
+</div>
+</div>
+</section>
 
 
